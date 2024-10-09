@@ -1,0 +1,102 @@
+* {
+  border: 0;
+  padding: 0;
+}
+
+nav {
+  position: fixed;
+  height: 80px;
+  overflow: hidden;
+  top: 0;
+  display: flex;
+  align-items: center;
+  background: rgb(167, 9, 41);
+  width: 100%;
+}
+
+.logo {
+  background: url(../img/FerrariLogo.png) no-repeat 80% 80%;
+  background-size: contain;
+  width: 180px;
+  height: 55px;
+  float: left;
+}
+
+.menu {
+  position: absolute;
+  right: 80px;
+}
+
+.menu a {
+  color: #dff;
+  text-decoration: none;
+  font-weight: 700;
+  margin-left: 30px;
+  transition: color 1s;
+  text-transform: uppercase;
+}
+
+.home {
+  color: rgb(235, 235, 26);
+}
+
+.menu a:hover {
+  color: #333;
+}
+
+header {
+  width: 120%;
+  height: 900px;
+  margin-top: 80px;
+  background-image: linear-gradient(rgba(0,0,0,.50) 0%, rgba(0,0,0,.40) 50%, rgba(0,0,0,.50) 100%), url(../img/fondoFerrari.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+
+.btn {
+  display: none;
+  position: absolute;
+  right: 20px;
+}
+
+.btn:hover>span {
+  background-color: #fff;
+}
+
+.btn span {
+  display: block;
+  margin: 6px;
+  width: 40px;
+  height: 3px;
+  background: #333;
+}
+
+p {
+  font-family: "Italianno", cursive;
+  padding: 20px;
+  font-size: 24px;
+  text-align: justify;
+  margin: 0 40px;
+  line-height: 40px;
+  color: #fff;
+}
+
+section {
+  background-color: #222;
+}
+
+h2 {
+  color: rgb(167, 9, 41);
+  font-size: 40px;
+  margin-left: 60px;
+  margin-top: 0;
+  padding-top: 30px;
+  font-weight: ;
+}
+
+.line {
+  height: 2px;
+  width: 30%;
+  background: linear-gradient(to right, rgb(167, 9, 41), transparent);
+  margin-left: 60px;
+}
